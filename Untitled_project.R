@@ -11,7 +11,7 @@ library(purrr)
 library(pscl)
 library(ROCR)
 dataset <-read.csv("/Users/daisyshi/Downloads/train_2v - train_2v (1).csv",header=TRUE,sep = ",")
-hist(dataset$bmi)
+hist(dataset$bmi)#this is new added hist chart
 ################################################################################
 # Data processing
 ################################################################################
